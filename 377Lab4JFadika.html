@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="377Lab4External.css">
+</head>
+<body>
+    <header id="head">
+        <h1>INST377 - Lab 4</h1>
+    </header>
+
+    <!--Main Text-->
+    <div class="box1">
+        <form name="NameInput" >
+            <label for="name">Name: </label>
+            <input type="text" id="name" autofocus required>
+            <br>
+            <input type="submit" value="Alert Me"> 
+        </form>
+        <script type="text/javascript">
+            function HiName() {
+                console.log('Processing name and displaying alert')
+                if(document.)
+            }
+        </script>
+        
+     
+        <br>
+    </div>
+    <div class="box2">
+        <form name="contactForm" onsubmit="return FormValidation()" action="">
+            <label for="texttest">Text Tester: </label>
+            <input type="text" id="texttest" autofocus>
+            <br>
+            <input type="submit" value="Validate Text"> 
+           
+        </form> 
+        <script type ="text/javascript">
+            function FormValidation() {
+              console.log('Validating user input:', document.contactForm.texttest.value)
+              if (document.contactForm.texttest.value.trim()== "/[!@#$%^&*()_+\-=\[\]{};':\\|,.<>\/?]+/;")
+              alert('Remove all special characters')
+            }
+        </script>
+        <br>
+    </div>
+    <div class="box3" id="colorbox">
+        <button onclick="changeColor()">Change Color</button>
+
+        <script type="text/javascript">
+
+            function changeColor() {
+                console.log('Attempting to change box color, current color is:', document.getElementById("colorbox").style.backgroundColor);
+                
+                if(document.getElementById("colorbox").style.backgroundColor == 'red') {
+                    document.getElementById("colorbox").style.backgroundColor == 'blue';
+                } else {
+                    document.getElementById("colorbox").style.backgroundColor == 'red';
+                }
+                console.log('Successfully changed color of box, new color is: ', document.getElementById("colorbox").style.backgroundColor);
+            
+
+        
+            }
+        </script>
+    </div>
+    <br>
+    <div class = box4 id="textbox">
+        <button>Add Text</button>
+        <script type="text/javascript">
+         
+           
+
+        </script>
+    </div>
+</body>
+</html>

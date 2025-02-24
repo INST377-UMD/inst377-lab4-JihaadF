@@ -1,0 +1,47 @@
+body{
+    background-color: chocolate;
+}
+
+.box1{
+    background-color: blue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    width: 25%;
+}
+
+.box2{
+    background-color: blue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    width: 25%;
+    margin-top: 10px;
+}
+
+.box3{ 
+    background-color: blue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    width: 25%;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.box4{
+    background-color: blue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    width: 25%;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
